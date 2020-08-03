@@ -285,7 +285,7 @@
 					}
 				}
 			});
-			if (arr9person == arr9world) {
+			if (JSON.stringify(arr9person) == JSON.stringify(arr9world)) {
 				$('#tl_chuky').html('CHÚ Ý QUAN SÁT BIỂU ĐỒ: Chu kỳ cuộc đời của bạn trùng với chu kỳ của nhân loại. Lên cùng lên, xuống cùng xuống.')
 			} else {
 				$('#tl_chuky').html('CHÚ Ý QUAN SÁT BIỂU ĐỒ: Chu kỳ cuộc đời của bạn lệch pha với chu kỳ của nhân loại. Căn cứ điều này để biết tận dụng các thời cơ riêng của cá nhân, đừng theo số đông (tham khảo thôi nhé).')
