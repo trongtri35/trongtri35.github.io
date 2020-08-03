@@ -114,8 +114,8 @@
 			tbs_9 = '';
 			dienso(ueoai);
 			dienso(phuam);
-			$('.showtable').css({
-				"display": "flex"
+			$('.hide').css({
+				"display": "initial"
 			});
 			$('#tbten_1').html(tbten_1);
 			$('#tbten_2').html(tbten_2);

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:100, 200, 400, 500, 600, 700, 800|Nunito:300, 400, 600, 700, 800");
+@import url("https://fonts.googleapis.com/css?family=Mulish:100, 200, 400, 500, 600, 700, 800|Poppins:100, 200, 400, 500, 600, 700, 800|Nunito:300, 400, 600, 700, 800");
 
 html {
     overflow-x: hidden;
@@ -137,7 +137,7 @@ section.dark,
 }
 
 #page-title .page-title>h1 {
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
     font-size: 2.5rem;
     line-height: 1.2;
     font-weight: 400;
@@ -1413,7 +1413,7 @@ section.dark,
 #header .header-inner #logo a span,
 #header #header-wrap #logo a,
 #header #header-wrap #logo a span {
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
     font-size: 40px;
     color: #1f1f1f;
     font-weight: 800;
@@ -1799,7 +1799,7 @@ section.dark,
 
 #mainMenu nav>ul>li>a {
     position: relative;
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
     padding: 10px 12px;
     text-transform: uppercase;
     font-size: 12px;
@@ -1889,7 +1889,7 @@ section.dark,
     font-weight: 500;
     font-style: normal;
     color: #444;
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
     padding: 12px 20px 12px 18px;
     display: block;
     transition: .3s ease;
@@ -1952,7 +1952,7 @@ section.dark,
 }
 
 #mainMenu nav>ul>li.mega-menu-item .mega-menu-content .mega-menu-title {
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
     color: #000;
     font-size: 13px;
     line-height: 14px;
@@ -3177,7 +3177,7 @@ section.dark,
 
 .header-extras>ul>li>a:not(.btn),
 .header-extras>ul>li .topbar-dropdown>.title {
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
     font-size: 12px;
     position: relative;
     display: block;
@@ -3954,7 +3954,7 @@ body.side-panel-static #wrapper .container {
     display: inline-block;
     float: none;
     padding: 0 2px;
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
 }
 
 .page-menu nav>ul>li:last-child {
@@ -4009,7 +4009,7 @@ body.side-panel-static #wrapper .container {
     position: absolute;
     text-align: left;
     list-style: none;
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
     padding: 14px 20px;
     width: auto;
     top: 50px;
@@ -4382,7 +4382,7 @@ body:not(.breakpoint-xs):not(.breakpoint-sm):not(.breakpoint-md) .page-menu nav>
 }
 
 .sidebar-menu {
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
 }
 
 .sidebar-menu label {
@@ -4462,7 +4462,7 @@ body {
     line-height: 1.65714286em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
     color: #484848;
 }
 
@@ -4478,7 +4478,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
     color: #1f1f1f;
     margin: 0;
     letter-spacing: .5px;
@@ -4612,7 +4612,7 @@ p {
     line-height: 1.7;
     letter-spacing: 0;
     color: #777;
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
 }
 
 ul.bullets {
@@ -7559,7 +7559,7 @@ h6.font-parisienne {
     font-size: 14px;
     line-height: 32px;
     font-weight: 400;
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
 }
 
 #footer a:not(.btn):not(:hover) {
@@ -7567,7 +7567,7 @@ h6.font-parisienne {
 }
 
 #footer p {
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
 }
 
 #footer a:not(.btn) {
@@ -7587,7 +7587,7 @@ h6.font-parisienne {
 
 #footer .widget .widget-title ul li a,
 #footer .widget h4 ul li a {
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
     font-size: 15px;
     line-height: 32px;
     color: #999;
@@ -9083,7 +9083,7 @@ iframe {
     font-size: 12px !important;
     padding: 4px 14px;
     height: 34px;
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
     background-color: #fff !important;
     border-color: #ebebeb !important;
     color: #4c5667 !important;
@@ -9865,7 +9865,9 @@ div.dataTables_wrapper div.dataTables_length select {
     font-size: 50px !important;
     font-weight: 800;
     line-height: 1.1;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    padding: 9rem 0 3rem 0;
+    color: #e2e2e2;
 }
 
 .text-md,
@@ -12194,7 +12196,7 @@ a:not([href]):not([tabindex]):not(.btn) {
 button.btn,
 .btn:not(.close):not(.mfp-close),
 a.btn:not([href]):not([tabindex]) {
-    font-family: poppins, sans-serif;
+    font-family: Mulish, sans-serif;
     border-radius: 5px 5px 5px 5px;
     font-size: 12px;
     font-weight: 600;
@@ -20239,4 +20241,18 @@ body[data-bg-image] {
     box-shadow: 18px 14px 27px 0 rgba(0, 0, 0, .1);
     transform: translateY(-3px);
     border: 1px solid #ebedef;
+}
+
+.hide {
+    display: none;
+}
+
+#particles-js {
+    width: 100%;
+    background: url(../img/9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(11, 13, 19, 0.8);
 }
